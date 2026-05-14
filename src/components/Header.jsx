@@ -6,7 +6,7 @@ const Header = () => {
         <div className='flex justify-center flex-col items-center'>
             <img className='w-[350px]' src={logo} alt="" />
             <p className=''>Journalism Without Fear or Favour</p>
-            <p>{format(new Date(),'EEEE , MMMM MM , yyyy')}</p>
+            <p>{format(new Date(),'EEEE , MMMM MM, yyyy')}</p>
         </div>
     );
 };
